@@ -51,9 +51,12 @@ def write_results(
         writer.writerows(results)
 
 if __name__ == '__main__':
-    today = datetime.now()
     language = 'en-US'
+
+    #location coordinate you can find on google map
     location=(35.6382051,139.6935731)
+
+    # radius in meter
     radius=50000
 
     # To use the script you need your own key
