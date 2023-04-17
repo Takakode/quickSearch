@@ -8,5 +8,5 @@ google_key='your key'
 ```
 Then:
 ```
-python3 map_search
+python3 map_search.py
 ```
